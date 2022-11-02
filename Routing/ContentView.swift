@@ -17,7 +17,9 @@ struct ContentView: View {
             .ignoresSafeArea()
             .accentColor(.green)
             .onAppear() {
-                viewModel.checkIfLocationServicesIsEnabled()
+                DispatchQueue.main.async { viewModel.checkIfLocationServicesIsEnabled()
+                }
+
             }
     }
 }
