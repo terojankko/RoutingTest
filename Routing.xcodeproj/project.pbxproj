@@ -12,6 +12,7 @@
 		98C5AB2A2911EBA0002A4903 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5AB292911EBA0002A4903 /* ContentView.swift */; };
 		98C5AB2C2911EBA1002A4903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C5AB2B2911EBA1002A4903 /* Assets.xcassets */; };
 		98C5AB2F2911EBA1002A4903 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C5AB2E2911EBA1002A4903 /* Preview Assets.xcassets */; };
+		98CB77EB2912FED8003124A6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB77EA2912FED8003124A6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		98C5AB292911EBA0002A4903 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98C5AB2B2911EBA1002A4903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98C5AB2E2911EBA1002A4903 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98CB77EA2912FED8003124A6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		98C5AB262911EBA0002A4903 /* Routing */ = {
 			isa = PBXGroup;
 			children = (
+				98CB77EA2912FED8003124A6 /* MapView.swift */,
 				98C5AB272911EBA0002A4903 /* RoutingApp.swift */,
 				98C5AB292911EBA0002A4903 /* ContentView.swift */,
 				98157AA22911FEB000621BEB /* ContentViewModel.swift */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98157AA32911FEB000621BEB /* ContentViewModel.swift in Sources */,
+				98CB77EB2912FED8003124A6 /* MapView.swift in Sources */,
 				98C5AB2A2911EBA0002A4903 /* ContentView.swift in Sources */,
 				98C5AB282911EBA0002A4903 /* RoutingApp.swift in Sources */,
 			);
